@@ -1,0 +1,143 @@
+<html>
+    <title>Layout page</title>
+    <head></head>
+    <style>
+        header{
+            height:200px;
+            display:flex;
+            flex-direction:row;
+            border:1px solid black;
+        }
+        .left{
+            height:inherit;
+            width:30%;
+            background-image:url("c6.jpeg");
+            background-size:cover;
+        }
+        .right{
+            height:inherit;
+            width:70%;
+            font-size: 30px;
+            background-color: rgb(211, 162, 39);
+        }
+        h1{
+            text-align: center;
+            text-shadow: 0px 1px 5px rgba(128,0,0,1);
+        }
+        p{
+            text-align: center;
+            text-shadow: 0px 1px 5px black;
+        }
+        nav{
+            height:50px;
+            display:flex;
+            background-color:plum;
+            flex-direction: row;
+    
+        }
+
+        .n{
+            height: inherit;
+            width:25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .n:hover{
+            background-color:aqua;
+            transition: 4s;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section{
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+        }
+        .s1{
+            height: inherit;
+            width: 20%;
+            background-color: #b8d39a;
+        }
+        .s2{
+            height: inherit;
+            width: 60%;
+            background-color: #daa26b;
+        }
+        .s3{
+            height: inherit;
+            width: 20%;
+            background-color: #daa26b;
+        }
+        
+        marquee{
+            height: inherit;
+            text-align: center;
+        }
+        footer{
+            height:100px;
+            width:100%;
+            background-color:goldenrod;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: black;
+        }
+
+
+    </style>
+    <body>
+        <header>
+            <div class="left"></div>
+            <div class="right">
+                <h1>Little Krishna </h1>
+                <p>(Adventures of Hindu God)</p>
+                
+    
+            </div>
+        </header>
+        <nav>
+            <div class="n">
+                <a href="">Home</a>
+            </div>
+            <div class="n">
+                <a href="">Posters</a>
+            </div>
+            <div class="n">
+                <a href="">Friends</a>
+            </div>
+            <div class="n">
+                <a href="">Ratings</a>
+            </div>
+
+        
+        </nav>
+        <section>
+            <div class="s1">
+                <marquee direction="up" onmouseout="this.start()" onmouseover="this.stop()">
+                    <h3>Episodes</h3>
+                    <h3>Movie</h3>
+                    <h3>Adventures</h3>
+                </marquee>
+            </div>
+            <div class="s2">
+                <img src="c2.jpeg">
+                <img src="c1.jpeg">
+                <img src="c4.jpeg">
+                <img src="c8.jpeg">
+            </div>
+            <div class="s3">
+                <div class="r">stars</div>
+                <div class="r1">Feed back</div>
+                <div class="r2">queries</div>
+            </div>
+        </section>
+        <footer>
+            <h2>THANK YOU !</h2>
+        </footer>
+    </body>
+</html>
